@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/qlightstyle">
+        <file>style.qss</file>
+    </qresource>
+</RCC>
