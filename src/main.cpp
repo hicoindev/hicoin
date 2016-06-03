@@ -963,8 +963,11 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
     int64_t nSubsidy = 0;
-    if (nHeight <= LAST_POW_BLOCK) { // no pow reward after LAST_POW_BLOCK
+    if (nHeight <= LAST_POW_BLOCK_FIRST) {
       nSubsidy = 100 * COIN;
+    }
+    if (nHeight <= LAST_POW_BLOCK && nHeight > LAST_POW_BLOCK_FIRST) { // no pow reward after LAST_POW_BLOCK
+      nSubsidy = 0.01 * COIN;
     }
     if (nHeight <= LAST_PREMINE_BLOCK) { //  premine
       nSubsidy = 1000000000 * COIN;
