@@ -1288,6 +1288,7 @@ void MapPort()
 
 static const char *strDNSSeed[][2] = {
     {"HiCoin 1st Seed Server","45.32.26.109"},
+    {"HiCoin 2nd Seed Server","45.32.14.7"},
 };
 
 void ThreadDNSAddressSeed(void* parg)
