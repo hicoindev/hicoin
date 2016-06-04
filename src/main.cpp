@@ -966,7 +966,7 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
     if (nHeight <= LAST_POW_BLOCK_FIRST) {
       nSubsidy = 100 * COIN;
     }
-    if (nHeight <= LAST_POW_BLOCK && nHeight > LAST_POW_BLOCK_FIRST) { // no pow reward after LAST_POW_BLOCK
+    if (nHeight <= LAST_POW_BLOCK && nHeight > 132714) { // no pow reward after LAST_POW_BLOCK
       nSubsidy = 0.01 * COIN;
     }
     if (nHeight <= LAST_PREMINE_BLOCK) { //  premine
