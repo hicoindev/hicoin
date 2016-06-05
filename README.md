@@ -2,6 +2,9 @@
 
 Copyright (c) 2014-2016 HiCoin Developers
 
+### URGENT!
+Please update all wallet to 1.0.2.1 (Protocol Version : 60005)
+Old version of wallet (1.0.1.2) will not sync anymore in coinnetwork.
 
 
 ##SPECIFICATIONS
