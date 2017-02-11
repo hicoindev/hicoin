@@ -3,7 +3,7 @@
 Copyright (c) 2014-2016 HiCoin Developers
 
 ### URGENT!
-## Prevent Double Spent Attack
+#### Prevent Double Spent Attack
 Please update all wallet to 1.0.3.1 (Protocol Version : 60016)
 Old version of wallet (1.0.2.1) will not sync anymore in coinnetwork.
 
