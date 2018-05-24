@@ -1,4 +1,4 @@
-#HiCoin
+# HiCoin
 
 Copyright (c) 2014-2016 HiCoin Developers
 
@@ -8,7 +8,7 @@ Please update all wallet to 1.0.3.1 (Protocol Version : 60016)
 Old version of wallet (1.0.2.1) will not sync anymore in coinnetwork.
 
 
-##SPECIFICATIONS
+## SPECIFICATIONS
 
 - **POS INTEREST:** PoS (Proof-of-Stake) 5% yearly forever (from non-reserved wallet balance)
 - **ALGORITHM:** Scrypt
